@@ -6,8 +6,8 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing</title>
-  <script type="module" crossorigin src="/assets/index-UOeYyZ3v.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CrSj-0ft.css">
+  <script type="module" crossorigin src="/assets/index-B3VrietD.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Df7UpP9t.css">
 </head>
 
 <body class="bg-gradient-to-l from-complemento to-ppal">
@@ -26,27 +26,63 @@
           </svg></a>
       </div>
       <!-- menuNav -->
+      <div class="hidden md:flex_nav--desk">
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+        <a href="#">Galería</a>
+      </div>
 
       <!-- menuBtn -->
+      <div class="hidden md:flex_nav--desk">
+        <a href="#" class="font-bold">Sign In</a>
+        <button
+          class="btn font-bold uppercase bg-destaque hover:bg-txt text-txt hover:text-destaque hover:shadow-2xl">Log
+          In</button>
+      </div>
 
       <!-- menuIcons -->
+      <div class="grid_nav--icon  md:hidden" id="menu_icons">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-8 grid-place cursor-pointer hover:scale-105">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-8 hidden grid-place cursor-pointer hover:scale-105">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </div>
 
     </header>
 
-    <div class="h-4/6 w-full px-2 md:w-9/12 m-auto text-white">
-      <div id="menu_links" class="hidden">hola</div>
+    <div class="w-3/4 px-2 sm:w-9/12 m-auto text-white pt-20">
+      <!-- menu mobil -->
+      <div id="menu_links" class="hidden">
+        <div class="flex_nav--mobil line">
+          <a href="#">Servicios</a>
+          <a href="#">Contacto</a>
+          <a href="#">Galería</a>
+        </div>
+        <div class="flex_nav--mobil">
+          <a href="#" class="font-bold">Sign In</a>
+          <button
+            class="btn w-full font-bold uppercase bg-destaque hover:bg-txt text-txt hover:text-destaque hover:shadow-2xl">Log
+            In</button>
+        </div>
+      </div>
 
-      <div class="flex flex-col justify-center items-center gap-y-6 w-9/12 m-auto h-full">
+      <!-- texto HERO -->
+      <div class="flex flex-col justify-center items-center gap-y-6 h-full mt-10">
         <h1 class="text-center font-extrabold text-3xl">Join the Green Revolution
           with EcoSwap</h1>
         <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet
           aliquid placeat
           officia magnam repellat
           earum beatae doloremque vero debitis?</p>
-        <div class="flex items-center justify-center gap-8">
+        <div class="flex items-center justify-center w-full gap-8">
           <button
-            class="btn bg-destaque border-destaque border-2 text-ppal hover:bg-ppal hover:text-destaque uppercase font-bold ">Acceder</button>
-          <button class="btn border-destaque hover:bg-ppal border-2 text-white uppercase font-bold">+
+            class="btn w-full sm:w-min bg-destaque border-destaque border-2 text-ppal hover:bg-ppal hover:text-destaque uppercase font-bold ">Acceder</button>
+          <button class="btn w-full sm:w-min border-destaque hover:bg-ppal border-2 text-white uppercase font-bold">+
             Info</button>
         </div>
       </div>
@@ -71,7 +107,7 @@
   <section class="relative">
     <img src="data:image/svg+xml,%3csvg%20width='1201'%20height='200'%20viewBox='0%200%201201%20200'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%20108L15%20115.667C31%20123.333%2062%20138.667%2092%20123.333C123%20108%20154%2062%20185%2058.1667C215%2054.3333%20246%2092.6667%20277%20111.833C308%20131%20338%20131%20369%20115.667C400%20100.333%20431%2069.6667%20462%2054.3333C492%2039%20523%2039%20554%2046.6667C585%2054.3333%20615%2069.6667%20646%2077.3333C677%2085%20702.5%2081.8333%20732.5%2089.5C763.5%2097.1667%20800%20122%20831%20110.5C862%2099%20892%2054.3333%20923%2062C954%2069.6667%20985%20123.333%201015%20131C1046%20138.667%201077%20100.333%201108%2077.3333C1138%2054.3333%201169%2046.6667%201185%2042.8333L1200%2039V200H1185C1169%20200%201138%20200%201108%20200C1077%20200%201046%20200%201015%20200C985%20200%20954%20200%20923%20200C892%20200%20862%20200%20831%20200C800%20200%20769%20200%20738%20200C708%20200%20677%20200%20646%20200C615%20200%20585%20200%20554%20200C523%20200%20492%20200%20462%20200C431%20200%20400%20200%20369%20200C338%20200%20308%20200%20277%20200C246%20200%20215%20200%20185%20200C154%20200%20123%20200%2092%20200C62%20200%2031%20200%2015%20200H0V108Z'%20fill='white'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%20108L15%20115.667C31%20123.333%2053%20125%2092%20100.333C131%2075.6666%20154%2038.9999%20185%2035.1666C215%2031.3333%20252%2091.4999%20283%20110.667C314%20129.833%20344%20118.333%20375%20103C406%2087.6666%20431%2046.6666%20462%2031.3333C492%2015.9999%20520.5%2023.6667%20551.5%2031.3333C582.5%2039%20615%2062.8333%20646%2070.5C677%2078.1667%20703%2077.3333%20733%2085C764%2092.6667%20800%20114.5%20831%20103C862%2091.4999%20892%2031.3333%20923%2038.9999C954%2046.6666%20985%20118.833%201015%20126.5C1046%20134.167%201077%2077.3333%201108%2054.3333C1138%2031.3333%201155.5%2029.8602%201173%2031.3333C1190.5%2032.8063%201200%2038.9999%201200%2038.9999V177H1185C1169%20177%201138%20177%201108%20177C1077%20177%201046%20177%201015%20177C985%20177%20954%20177%20923%20177C892%20177%20862%20177%20831%20177C800%20177%20769%20177%20738%20177C708%20177%20677%20177%20646%20177C615%20177%20585%20177%20554%20177C523%20177%20492%20177%20462%20177C431%20177%20400%20177%20369%20177C338%20177%20308%20177%20277%20177C246%20177%20215%20177%20185%20177C154%20177%20123%20177%2092%20177C62%20177%2031%20177%2015%20177H0V108Z'%20fill='white'%20fill-opacity='0.6'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0.473244%20108.471C0.473244%20108.471%20-5.02675%20107.138%2021.4732%20115.638C47.9732%20124.138%2085.9732%2099.4903%20110.473%2078.6376C134.973%2057.7849%20154.473%2017.1569%20185.473%2013.3236C215.473%209.49027%20252.473%2069.6569%20283.473%2088.8236C314.473%20107.99%20328.473%20113.138%20375.473%2081.1569C422.473%2049.1763%20431.473%2024.8236%20462.473%209.49028C492.473%20-5.84306%20497.473%20-0.862416%20533.973%2012.1376C570.473%2025.1377%20610.973%2054.4709%20641.973%2062.1376C672.973%2069.8043%20703.973%2068.9709%20733.973%2076.6376C764.973%2084.3043%20800.473%20102.138%20831.473%2090.6376C862.473%2079.1376%20892.473%209.49027%20923.473%2017.1569C954.473%2024.8236%20985.473%2096.9903%201015.47%20104.657C1046.47%20112.324%201073.97%2068.1376%201104.97%2045.1376C1134.97%2022.1376%201146.97%2013.2849%201165.97%2013.6376C1184.97%2013.9903%201200.47%2039.6376%201200.47%2039.6376V155.157H1185.47C1169.47%20155.157%201138.47%20155.157%201108.47%20155.157C1077.47%20155.157%201046.47%20155.157%201015.47%20155.157C985.473%20155.157%20954.473%20155.157%20923.473%20155.157C892.473%20155.157%20862.473%20155.157%20831.473%20155.157C800.473%20155.157%20769.473%20155.157%20738.473%20155.157C708.473%20155.157%20677.473%20155.157%20646.473%20155.157C615.473%20155.157%20585.473%20155.157%20554.473%20155.157C523.473%20155.157%20492.473%20155.157%20462.473%20155.157C431.473%20155.157%20400.473%20155.157%20369.473%20155.157C338.473%20155.157%20308.473%20155.157%20277.473%20155.157C246.473%20155.157%20215.473%20155.157%20185.473%20155.157C154.473%20155.157%20123.473%20155.157%2092.4732%20155.157C62.4732%20155.157%2031.4732%20155.157%2015.4732%20155.157H0.473244V108.471Z'%20fill='white'%20fill-opacity='0.3'/%3e%3c/svg%3e" class="rotate-180 w-full" alt="">
 
-    <div class="w-full px-2 md:w-9/12 m-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 md:gap-2 py-8"
+    <div class="w-full px-2 md:w-9/12 m-auto grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 gap-4 md:gap-2 py-8"
       id="cards">
       <div class="bg-white border-destaque border-2 rounded-xl p-4 flex flex-col justify-between items-start gap-3">
         <div>
